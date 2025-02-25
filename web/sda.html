@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INTERIOR DESIGNS</title>
+        <link rel="stylesheet" href="inter.css">
+        <script>
+            function stickymenu()
+            {
+                var sticky=document.getElementById("sticky");
+                if(window.pageYoffset>20){
+                    sticky.classList.add("sticky");
+                    sticky.classList.remove("menu-ul");
+                }else{
+                    sticky.classList.remove("sticky");
+                }
+            }
+            window.onscroll=function(){
+                stickymenu();
+            }
+         </script>
+    </head>
+    <body>
+        <div class="background">
+            <div class="menu" id="sticky">
+                <ul  class="menu-ul">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">OUR DESIGNS</a></li>
+                    <li><a href="">WHY US</a></li>
+                    <li><a href="">APPOINTMENT</a></li>
+                </ul>
+            </div>
+            <div class="pagetitle">INTERIOR DESIGNS
+                <div class="discription">Let Us make your home HEAVEN</div>
+            </div>        
+        </div>
+
+        <!-----design block----->
+
+        <div class="pageblocks">
+            <div class="title">
+                OUR DESIGNS
+            </div>
+            <div  class="design">
+                <img src="im1.jpg"/>
+                <img src="im2.jpeg"/>
+                <img src="im3.jpg"/>
+                <img src="im4.jpg"/>
+                <img src="im5.jpg"/>
+                <img src="im6.jpg"/>
+                <img src="b2.jpg"/>
+                <img src="im8.webp"/>
+                <img src="im9.webp"/>
+            </div>
+            <button class="moredesignbtn">More designs</button>
+        </div>
+        <!-----why us block-->
+        <div class="pageblocks">
+            <div class="title">
+                Why Us
+            </div>
+
+            <div class="flexblock">
+                <div class="whyusflexitem">
+                <div class="block-label">
+                    OUR PROJECTS
+                </div>
+                <div class="block-discription">Our expert designers are well trained and  equipped with major moder interior designing tools help us provide you with
+                     innovation solutions and unique interior decor  plans that stand out.</div>       
+             </div>
+             <div class="whyusflexitem">
+                <div class="block-label">
+                    OUR DESIGNS</div>
+                <div class="block-discription">Our expert designers are well trained and  equipped with major moder interior designing tools help us provide
+                     you with innovation solutions and unique interior decor  plans that stand out.</div>       
+             </div>
+
+            <div class="whyusflexitem">
+                <div class="block-label">
+                    OUR SERVICES </div>
+               <div class="block-discription">Our expert designers are well trained and  equipped with major moder interior designing tools help us provide 
+                you with innovation solutions and unique interior decor  plans that stand out.</div>        
+            </div>
+
+        <div class="whyusflexitem">
+                <div class="block-label">
+                Finished projects
+                </div>
+                <div class="block-number">
+                    1,471,987
+                 </div>
+         </div>
+
+         <div class="whyusflexitem">
+            <div class="block-label">
+                Upcoming projects
+            </div>
+            <div class="block-number">
+                2,51,907
+            </div>
+        </div>
+    </div>
+</div>
+<!-------appointment block-->
+
+<div class="pageblocks"
+
+
+
+
+    </body>
+</html>

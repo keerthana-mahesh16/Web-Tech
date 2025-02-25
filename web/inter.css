@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    background-image: url('/b2.jpg');
+}
+.background{
+    background-image: url('backgroud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu{
+    text-align: right;
+    font-size: 18px;
+}
+.menu-ul{
+    padding: 10px;
+}
+.menu-ul li{
+    display:inline-block;
+    font-variant:small-caps;
+    letter-spacing:2px;
+    padding:10px 25px;
+
+}
+a{
+    border-bottom:1px solid transparent;
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.sticky{
+    background:#0f4c75;
+    position: fixed;
+    width:100%;
+    z-index:100;
+}
+.sticky ul{
+    padding:0;
+    margin:10px;
+}
+.pagetitle{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color:white;
+    letter-spacing:10px;
+    text-shadow:0 0 5px #0f4c75;
+}
+.discription,title{
+    font-variant: small-caps;
+    font-size:15px;
+    margin:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pageblocks{
+    text-align:center;
+    margin-top:50px;
+}
+.title{
+    letter-spacing: 10px;
+    color:#0f4c75;
+}
+.design img{
+    height:250px;
+    max-width:95%;
+    margin: 15px;
+}
+.moredesignbtn{
+    background: transparent;
+    border: 2px solid #0f4c75;;
+    color:#0f4c75;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing:2px;
+}
+.moredesignbtn:hover{
+    background: #0f4c75;
+    color:white;
+    transition: all 0.5s;
+}
+.flexblock{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.whyusflexitem{
+    background: #0f4c75 ;
+    color: white;
+    width: 25%;
+    padding: 25px;
+    margin:25px;
+}
+.bloock-label{
+    font-variant: small-caps;
+    font-size: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 10px;
+}
+.block-discription{
+    text-align:justify;
+}
+.block-number{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+}
